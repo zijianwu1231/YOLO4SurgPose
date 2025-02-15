@@ -9,6 +9,11 @@ Run `conda env create -f environment.yml`
 
 ## Data Format
 
+### SurgPose to COCO
+
+
+### COCO to YOLO
+
 
 ## Train 
 
