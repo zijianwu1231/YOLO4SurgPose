@@ -1,2 +1,4 @@
-/runs*
-/pycache/*
+*runs
+*__pycache__
+*datasets
+*bbox

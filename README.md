@@ -9,11 +9,14 @@ Run `conda env create -f environment.yml`
 
 ## Data Format
 
+### SurgPose to YOLO
+[Reference](https://docs.ultralytics.com/datasets/pose/#ultralytics-yolo-format) of the YOLO Ultralytics Pose format.
+
+1. Bounding Box: (x, y, width, height), in which x, y are the coordinates of the center of the object, normalized to be between 0 and 1.
+ 
+We provide a script `./utils/surgpose2yolo.py` to convert the label format from SurgPose to YOLO.
+
 ### SurgPose to COCO
-
-
-### COCO to YOLO
-
 
 ## Train 
 
